@@ -1,18 +1,16 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class FatScale {
-	private static String FatScale() {
-		Scanner in = new Scanner(System.in);
-		String Response = in.nextLine();
-		if (Response.toLowerCase() == "Yes") {
-			return "Fat";
-		} else {
-			return "Fat";
-		}
-	}
+
 	public static void main(String[] args) {
-		System.out.println("Is your mom fat?");
-		String Fattness = FatScale();
-		System.out.println("Your mom is: "+Fattness);
+		// TODO Auto-generated method stub
+			
+		Scanner sc = new Scanner (System.in);
+		System.out.print("How fat is your mom?: ");
+		String str= sc.nextLine();
+		System.out.print("You think "+str);
+		System.out.print("? She's fat bro, dont lie to yourself");
+		
 	}
+
 }
